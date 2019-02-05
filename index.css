@@ -1,13 +1,13 @@
-h1{
-    color: red;
-}
-
 .redclass
 {
-    color:green;
+    color: brown;
+    font-size: 3em;
+    font-style: italic;
 }
 
 #greenid
 {
-    color:red;
+    color: blue;
+    font-size: 2em;
+    font-style: bold;
 }

@@ -5,23 +5,57 @@
     <title>
         Welcome
     </title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css">    <!--external stylesheet-->
+    
+    <!--internal/embedded style sheet-->
+    <style>
+        table{
+            background-color: #006947;
+            border: 1px;
+            border-color: black;
+        }
+        th, td{
+            border: 1px;
+            border-style: double;
+            border-color: black;
+            color: palegoldenrod;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
     <h1>
-        This is webapps help session
+        CSS Workshop
     </h1>
-    <h1>
-        this is  another heading page
-    </h1>
-    <p class="redclass">
-        This is paragraph
+
+    <h1 style="font-size: 30pt; color: purple;">CSS Workshop</h1>   <!--inline stylesheet-->
+    
+    <table>
+        <tr>
+            <th style="text-align: center">Course</th>
+            <th style="text-align: center">Credit hours</th>
+        </tr>
+        <tr>
+            <td>Webapps</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td> Java Programming</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Advanced Database Topics</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+
+    <p class="redclass">    <!--using a class from an external stylesheet-->
+        This is a paragraph. This paragraph is uses a class.
     </p>
-    <p id="greenid">
-            This is paragraph
+    <p id="greenid">        <!--using an id from an external stylesheet-->
+            This is paragraph. This paragraph uses an id.
         </p>
-    <a href="/">Click here
-    </a>
 
 </body>
 </html>
