@@ -1,4 +1,5 @@
 # CSS-Workshop
 
 ## Team slide
-![image](Team slide.png "team slide")
+
+![image](teamslide.jpg "team slide")
