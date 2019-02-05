@@ -1,7 +1,7 @@
 # CSS-Workshop
 
 ## Repository URL
-- [click here] to go to the repository.(https://gallapriyanka.github.io/CSS-Workshop/ "link to the workshop repository")
+- [click here](https://gallapriyanka.github.io/CSS-Workshop/ "link to the workshop repository")
 
 ## Team slide
 
